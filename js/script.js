@@ -1,3 +1,5 @@
+
+//these are listeners that respond to clicks on the artist buttons
 $('#Al-Andaluse-Garden').on('click', function() {
   $(".right-half").html("<img src='https://www.egypttoday.com/siteimages/Larg/71578.jpg'/> Located on the island of Zamalek");
 })
