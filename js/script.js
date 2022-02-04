@@ -1,5 +1,4 @@
 
-//these are listeners that respond to clicks on the artist buttons
 $('#Al-Andaluse-Garden').on('click', function() {
   $(".right-half").html("<img src='https://www.egypttoday.com/siteimages/Larg/71578.jpg'/> Located on the island of Zamalek");
 })
@@ -31,3 +30,41 @@ $('#Park-1').on('click', function() {
 $('#Park-2').on('click', function() {
 	$(".grid-container").html("<img src='https://www.egypttoday.com/siteimages/Larg/71578.jpg'/> Located on the island of Zamalek");
 })
+
+//for all -- should do what all code above does
+$('.garden-container').on('click', function() {
+  var gardenphoto = $(this).data('garden-photo')
+  console.log('clicked garden-container!')
+  $(".right-half").html(`<img src='${gardenphoto}'/>`)
+})
+//string
+var firstName = 'Eleni'
+var lastName = 'Zaras'
+var fullName = firstName + ' ' + lastName
+console.log('my name is', firstName, lastName)
+console.log(fullName)
+
+//numbers
+var age = 29
+var bfAge = 31
+
+var combinedAge = age + bfAge
+
+//arrays
+var nameArray = ['Eleni','Miranda', 'Xavier', 'Elsa', 'Maelle']
+nameArray.forEach(function (name, index) {
+  $('html').append(`<p>${name} is stored in position ${index}</p>`)
+})
+
+//object
+var eleniObject = {
+  age: 29,
+  almaMater: 'Michigan',
+  borough: 'Brooklyn',
+  tired: true,
+  countriesLivedIn: [
+    'USA'
+    'France'
+    'Greece'
+  ]
+}
