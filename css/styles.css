@@ -1,19 +1,20 @@
 .centered {
   text-align: center;
+  font-family: arial, sans-serif;
   }
 
-.garden-container {
-  border: 1px solid;
-  border-radius: 5px;
-  padding: 5px 9px;
-  background: #96CFB5;
-  font-family: arial, sans-serif;
-  margin-bottom: 8px;
-  cursor: pointer;
-}
+  .garden-container {
+    border-bottom: 2px solid;
+    border-radius: 2px;
+    padding: 10px 9px;
+    background: #ffffff;
+    font-family: arial,sans-serif;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
 
 .garden-container:hover {
-  background: #618D79;
+  background: #dcf7ee;
 }
 .garden-title {
   color: black;
@@ -25,12 +26,18 @@
 }
 
 .right-half img {
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 400px;
+  max-height: 400px;
   display: flex;
   margin-left: 10px;
-  
+  border-radius: 5px;
+
 }
 
-.right-half caption {
+.right-half-caption {
   margin-top: 8px;
+  margin-left: 10px;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 15px
+}
