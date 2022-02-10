@@ -1,5 +1,5 @@
 
-$('#Al-Andaluse-Garden').on('click', function() {
+$('#Al-Andalus-Garden').on('click', function() {
   $(".right-half").html("<img src='https://www.egypttoday.com/siteimages/Larg/71578.jpg'/> <p> <div class='right-half-caption'> Located on the island of Zamalek, this garden was designed to resemble the gardens of the Alhambra of Granada. It is currently closed to the public, supposedly for renovations, but some speculate that it will never reopen. </div></p>");
 })
 
