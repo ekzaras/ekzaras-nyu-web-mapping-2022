@@ -20,7 +20,7 @@
 }
 
 .half-width {
-  width: 45%;
+  width: 40%;
   display: inline-block;
 }
 
@@ -31,31 +31,3 @@
 
 .right-half caption {
   margin-top: 8px;
-
-}
-.grid-container {
-  display: grid;
-  grid-column-gap: 10px;
-  grid-template-columns: . . .;
-  grid-template-rows: . . .;
-
-}
-
-.grid-container {
-  display: inline-grid;
-  border-radius: 5px;
-  grid-template-columns: auto auto auto;
-  background-color: #618D79;
-  padding: 10px;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-}
-
-.grid-item {
-  background-color: #96CFB5;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  border-radius: 5px;
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-  }

@@ -1,6 +1,6 @@
 
 $('#Al-Andaluse-Garden').on('click', function() {
-  $(".right-half").html("<img src='https://www.egypttoday.com/siteimages/Larg/71578.jpg'/> Located on the island of Zamalek");
+  $(".right-half").html("<img src='https://english.ahram.org.eg/Media/News/2016/10/26/2016-636130875885868024-586.jpg'/>");
 })
 
 $('#Al-Horreya-Garden').on('click', function() {
@@ -37,34 +37,3 @@ $('.garden-container').on('click', function() {
   console.log('clicked garden-container!')
   $(".right-half").html(`<img src='${gardenphoto}'/>`)
 })
-//string
-var firstName = 'Eleni'
-var lastName = 'Zaras'
-var fullName = firstName + ' ' + lastName
-console.log('my name is', firstName, lastName)
-console.log(fullName)
-
-//numbers
-var age = 29
-var bfAge = 31
-
-var combinedAge = age + bfAge
-
-//arrays
-var nameArray = ['Eleni','Miranda', 'Xavier', 'Elsa', 'Maelle']
-nameArray.forEach(function (name, index) {
-  $('html').append(`<p>${name} is stored in position ${index}</p>`)
-})
-
-//object
-var eleniObject = {
-  age: 29,
-  almaMater: 'Michigan',
-  borough: 'Brooklyn',
-  tired: true,
-  countriesLivedIn: [
-    'USA'
-    'France'
-    'Greece'
-  ]
-}
