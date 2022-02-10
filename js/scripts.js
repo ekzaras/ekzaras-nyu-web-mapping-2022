@@ -1,6 +1,6 @@
 
 $('#Al-Andaluse-Garden').on('click', function() {
-  $(".right-half").html("<img src='https://english.ahram.org.eg/Media/News/2016/10/26/2016-636130875885868024-586.jpg'/>");
+  $(".right-half").html("<img src='https://www.egypttoday.com/siteimages/Larg/71578.jpg'/> Located on the island of Zamalek");
 })
 
 $('#Al-Horreya-Garden').on('click', function() {
@@ -16,24 +16,9 @@ $('#Al-Azhar-Park').on('click', function() {
 });
 
 $('#Manial-Garden').on('click', function() {
-	$(".right-half").html("<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/GD-EG-Caire-AlManyal021.JPG/800px-GD-EG-Caire-AlManyal021.JPG'/>");
+	$(".right-half").html("<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/GD-EG-Caire-AlManyal021.JPG/800px-GD-EG-Caire-AlManyal021.jpg'/>");
 })
 
 $('#Orman-Botanical-Garden').on('click', function() {
 	$(".right-half").html("<img src='https://egyptopia.com/shared/images/Geographic/33/big/-el-orman-gardens-_33167_33167.jpg'/> Located in Giza to the west of the Nile River, the Orman Botanical Garden was established in 1875 by Khedive Isma'il Pasha.")
-})
-
-$('#Park-1').on('click', function() {
-	$(".grid-container").html("<img src='https://www.egypttoday.com/siteimages/Larg/71578.jpg'/> Located on the island of Zamalek");
-})
-
-$('#Park-2').on('click', function() {
-	$(".grid-container").html("<img src='https://www.egypttoday.com/siteimages/Larg/71578.jpg'/> Located on the island of Zamalek");
-})
-
-//for all -- should do what all code above does
-$('.garden-container').on('click', function() {
-  var gardenphoto = $(this).data('garden-photo')
-  console.log('clicked garden-container!')
-  $(".right-half").html(`<img src='${gardenphoto}'/>`)
 })

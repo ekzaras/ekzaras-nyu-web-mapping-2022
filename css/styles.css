@@ -7,7 +7,7 @@
   border-radius: 5px;
   padding: 5px 9px;
   background: #96CFB5;
-  font-family: serif;
+  font-family: arial, sans-serif;
   margin-bottom: 8px;
   cursor: pointer;
 }
@@ -27,6 +27,9 @@
 .right-half img {
   max-width: 300px;
   max-height: 300px;
+  display: flex;
+  margin-left: 10px;
+  
 }
 
 .right-half caption {
